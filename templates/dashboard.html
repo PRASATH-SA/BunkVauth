@@ -23,7 +23,12 @@
             font-weight: 700;
             color: var(--primary);
         }
-        .logo-small svg { width: 24px; height: 24px; fill: currentColor; }
+        .logo-small img { 
+            width: 32px; 
+            height: 32px; 
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
 
         .dashboard-grid {
             display: grid;
@@ -120,7 +125,7 @@
     <div class="container">
         <nav class="nav animate-in">
             <div class="logo-small">
-                <svg viewBox="0 0 24 24"><path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.19L19,6.3V11C19,15.29 16.14,19.34 12,20.4C7.86,19.34 5,15.29 5,11V6.3L12,3.19M12,7C10.89,7 10,7.89 10,9V11H9V15H15V11H14V9C14,7.89 13.11,7 12,7M12,8A1,1 0 0,1 13,9V11H11V9A1,1 0 0,1 12,8Z" /></svg>
+                <img src="/static/images/logo.png" alt="BunkVauth Logo">
                 BunkVauth
             </div>
             <div style="display: flex; align-items: center; gap: 1.25rem;">
